@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 1.9.3"
 
   s.requirements << "none"
-  s.rubygems_version = "2.0.3"
+  s.rubygems_version = "2.2.2"
 
   s.summary = "Point of sale screen for Spree"
   s.description = "Extend functionality for spree to give shop like ordering ability through admin end"
