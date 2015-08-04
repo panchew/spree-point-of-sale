@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.files     = `git ls-files`.split("\n")
 
   s.require_path = ["lib"]
-  s.required_ruby_version = ">= 1.9.3"
+  s.required_ruby_version = ">= 2.1.5"
 
   s.requirements << "none"
   s.rubygems_version = "2.2.2"
@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.description = "Extend functionality for spree to give shop like ordering ability through admin end"
 
 
-  s.add_dependency('spree_core', '~> 3.0.3')
+  s.add_dependency('spree_core', '3.1.0.beta')
   s.add_dependency('barby', '>= 0')
   s.add_dependency('prawn', '>=0')
   s.add_dependency('chunky_png', '>=0')
